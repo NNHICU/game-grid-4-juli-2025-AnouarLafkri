@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+:root {
+  --primary: #ffb900;
+  --secondary: #101828;
+  --dark: #4a5565;
+  --light: #f1f3f9;
+  --body: #fffefc;
+}
+
+body {
+  font-family: 'Nunito', Arial, sans-serif;
+  background: var(--body);
+  color: var(--dark);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Nunito', Arial, sans-serif;
+}
+
+.card-box {
+  background: #fff;
+  border-radius: 1rem;
+  box-shadow: 0 4px 24px 0 rgba(16, 24, 40, 0.06);
+  padding: 2rem 1.5rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.full-height {
+  min-height: 340px;
+}
+
+.half-height {
+  min-height: 150px;
+}
+
+@media (max-width: 991px) {
+  .full-height, .half-height {
+    min-height: unset;
+  }
+}
