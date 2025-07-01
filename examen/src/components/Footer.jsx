@@ -12,9 +12,9 @@ export default function Footer() {
             <div className="col-md-4 mb-3 mb-md-0">
               <nav>
                 <ul className="list-unstyled mb-0">
-                  <li><a href="#home" className="text-dark">Home</a></li>
-                  <li><a href="#minecraft" className="text-dark">Minecraft</a></li>
-                  <li><a href="#domein" className="text-dark">Domein</a></li>
+                  <li><a href="/" className="text-dark">Home</a></li>
+                  <li><a href="/minecraft" className="text-dark">Minecraft</a></li>
+                  <li><a href="/domein" className="text-dark">Domein</a></li>
                 </ul>
               </nav>
             </div>

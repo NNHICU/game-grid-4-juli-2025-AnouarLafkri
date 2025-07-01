@@ -1,5 +1,7 @@
 # Toegepaste technieken
-Om de vindbaarheid te bevorderen heb ik gebruik gemaakt van .... zodat ....
+Om de vindbaarheid te bevorderen heb ik gebruik gemaakt van: Meta Tags, Geoptimaliseerde content, Image Alt tags, Backlinks.
+
+Zodat de crawlers van google de alt tags kunnen lezen van de images. hier door kan de crawler van google nogsteed de images van de website "bekijken". De content is geoptimaliseerd dit vind google ook belangerijk. Hoe beter de content hoe beter google je site vind. De meta Tags zijn ook belangerijk want dit vind goole ook mooi. De backlinks zijn ook belangerijk. sterke back links zorgt er voor dat je hoeger in de google search komt te staan
 
 # Advies
-Mijn advies voor Game Grid is om nog .... zodat ....
+Mijn advies voor Game Grid is om: een advertentiecampagne te starten met een influencer die goed aansluit op Minecraft, blogposts te schrijven op andere websites die teruglinken naar jouw website, en om een social media account aan te maken waarop je alle teksten volledig en netjes uitwerkt. Google vindt goed verzorgde teksten namelijk ook belangrijk voor de vindbaarheid. Zorg ervoor dat je regelmatig iets plaatst zodat je actief blijft in de ogen van je doelgroep. Let ook op dat je altijd relevante zoekwoorden gebruikt in je teksten. Hoe consistenter je dit doet, hoe beter je online zichtbaar wordt.....

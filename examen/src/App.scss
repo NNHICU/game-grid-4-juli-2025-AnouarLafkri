@@ -8,6 +8,12 @@
   --body: #fffefc;
 }
 
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 body {
   font-family: 'Nunito', Arial, sans-serif;
   background: var(--body);
@@ -41,4 +47,8 @@ h1, h2, h3, h4, h5, h6 {
   .full-height, .half-height {
     min-height: unset;
   }
+}
+
+.main-content {
+  flex: 1 0 auto;
 }

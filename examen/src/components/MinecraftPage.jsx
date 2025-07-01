@@ -20,7 +20,7 @@ function MinecraftPage() {
           <div className="card-box full-height">
             <h5>Minecraft server hosting</h5>
             <p>Je eigen server.Alle mods, versies en plugins. Java & Bedrock.</p>
-            <img src="media\minecraft6.png" alt="Minecraft server hosting"/>
+            <img src="/media/minecraft6.png" alt="Minecraft server hosting dashboard met Java en Bedrock ondersteuning"/>
           </div>
         </Col>
 
@@ -30,7 +30,7 @@ function MinecraftPage() {
               <div className="card-box half-height">
                 <h5>Virtual private servers</h5>
                 <p>AMD Ryzen 9 of Intel Xeon CPU's.</p>
-                <img src="media\minecraft5.webp" alt="chest" height={50} className="ms-auto d-block" />
+                <img src="/media/minecraft5.webp" alt="Virtual private server met AMD Ryzen 9 en Intel Xeon processors" height={50} className="ms-auto d-block" />
               </div>
             </Col>
             <Col xs={6}>
@@ -42,7 +42,7 @@ function MinecraftPage() {
             <Col xs={6}>
               <div className="card-box half-height">
                 <h5>Webhosting</h5>
-                <img src="media\minecraft4.png" alt="Virtual private servers" height={50} className="ms-auto d-block" />
+                <img src="/media/minecraft4.png" alt="Webhosting service met onbeperkte hosting mogelijkheden" height={50} className="ms-auto d-block" />
                 <p>Onbeperkte hosting. Simpel en snel.</p>
 
               </div>

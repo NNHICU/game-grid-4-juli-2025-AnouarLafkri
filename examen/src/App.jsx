@@ -15,19 +15,20 @@ function App() {
   return (
     <>
       <Header />
-      <Routes>
-        <Route path="/" element={
-          <>
-            <Hero />
-            <HomePage />
-            <Panel />
-            <Support />
-            <ThreeCards />
-          </>
-        } />
-        <Route path="/minecraft" element={<MinecraftPage />} />
-        <Route path="/domein" element={<DomeinPage />} />
-      </Routes>
+      <div className="main-content">
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Hero />
+              <HomePage />
+              <Panel />
+              <ThreeCards />
+            </>
+          } />
+          <Route path="/minecraft" element={<MinecraftPage />} />
+          <Route path="/domein" element={<DomeinPage />} />
+        </Routes>
+      </div>
       <Footer />
     </>
   )

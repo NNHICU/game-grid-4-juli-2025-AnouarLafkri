@@ -1,6 +1,7 @@
 import Panel from './Panel';
 import Support from './Support';
 import { Row, Col } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
@@ -11,7 +12,8 @@ function HomePage() {
             <div className="card-box full-height">
               <h5>Minecraft server hosting</h5>
               <p>Je eigen server. Alle mods, versies en plugins. Java & Bedrock.</p>
-              <img src="/media/minecraft6.png" alt="Minecraft server hosting" />
+              <img src="media\minecraft.webp" alt="Minecraft server hosting dashboard met Java en Bedrock ondersteuning" height={200} />
+              <Link to="/domein" className="btn btn-outline-dark btn-sm mt-2">Registreer domein</Link>
             </div>
           </Col>
           <Col lg={6}>
@@ -20,20 +22,22 @@ function HomePage() {
                 <div className="card-box half-height">
                   <h5>Virtual private servers</h5>
                   <p>AMD Ryzen 9 of Intel Xeon CPU's.</p>
-                  <img src="/media/minecraft5.webp" alt="chest" height={50} className="ms-auto d-block" />
+                  <img src="media\rocket.svg" alt="Virtual private server met AMD Ryzen 9 en Intel Xeon processors" height={175} className="ms-auto d-block" />
+                  <Link to="/domein" className="btn btn-outline-dark btn-sm mt-2">Registreer domein</Link>
                 </div>
               </Col>
               <Col xs={6}>
                 <div className="card-box half-height">
                   <h5>Domeinnamen</h5>
                   <p>Uitgebreide lijst met TLD's.</p>
+                  <Link to="/domein" className="btn btn-outline-dark btn-sm mt-2">Registreer domein</Link>
                 </div>
               </Col>
               <Col xs={6}>
                 <div className="card-box half-height">
                   <h5>Webhosting</h5>
-                  <img src="/media/minecraft4.png" alt="Webhosting" height={50} className="ms-auto d-block" />
                   <p>Onbeperkte hosting. Simpel en snel.</p>
+                  <Link to="/domein" className="btn btn-outline-dark btn-sm mt-2">Registreer domein</Link>
                 </div>
               </Col>
             </Row>
